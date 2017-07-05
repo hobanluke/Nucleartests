@@ -1374,7 +1374,7 @@ p:first-of-type {
     margin-left: 25px;
     padding-bottom: 50px;
     margin-top: -6px;
-    display: block;
+    display: none;
     color: #111;
     transition: 0s ease;
     -webkit-transition: 0s ease;

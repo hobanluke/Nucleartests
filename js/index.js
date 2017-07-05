@@ -123,13 +123,27 @@ $('#operation-18').hover(function(){
          $('#video3').get(0).play();
 
      });
-    $('#operation-4').on('click', function (){
-        $('.operation-info4').toggleClass('open');
-         $('.arrow4').toggleClass('open');
-        
-         $('#video4').get(0).play();
 
-     });
+$('#operation-4').click(function() {
+
+    if (playing == false) {
+
+        playing = true;
+
+        $('.operation-info4').addClass('open');
+        $('.arrow4').addClass('open');
+
+        $('#video4')[0].play();
+
+    } else {
+        playing = false;
+
+        $('.operation-info4').removeClass('open');
+        $('.arrow4').removeClass('open');
+
+        $('#video4')[0].pause();
+    }
+});
     $('#operation-5').on('click', function (){
         $('.operation-info5').toggleClass('open');
          $('.arrow5').toggleClass('open');

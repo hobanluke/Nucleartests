@@ -249,9 +249,38 @@ $('#operation-4').click(function() {
  
 
 
+//$('.arrow-moblie').click(function() {
+//   $(this).toggleClass('active');
+//    $('.main').toggleClass('open');
+//     $('.arrow-moblie').text('CLOSE');
+//  });
 
 
 
+$(function() {
+    $(".arrow-moblie").click(function () {
+        if ($(".arrow-moblie").is(":visible"))
+            $(".main").toggleClass('open');
+            
+        else
+            $(".main").toggleClass('open');
+            
+    });
+});
+
+
+
+//$('.arrow-moblie').click(function() {
+//
+//    if ($("#frm01").is(":visible"))
+//     $('.main').toggleClass('open');
+//     $('.arrow-moblie').text('CLOSE');
+//
+//    } else {
+//     $('.main').toggleClass('open');
+//     $('.arrow-moblie').text('MENU');
+//    }
+//});
 
 
 

@@ -302,15 +302,13 @@ left: 0px;
     position: relative;
     padding-top: 50px;
     padding-bottom: 10px;
-/*    margin-left: -144px;*/
+    letter-spacing: -.9px;
     font-weight: 400;
-    letter-spacing: -0.005em;
     line-height: 1em;
     font-size: 20px;
     left: 50px;
     width: 300px;
     text-indent: 0px;
-/*    display: none;*/
     } 
     
 .operation-header{
@@ -377,15 +375,15 @@ left: 0px;
     width: calc(1000px);
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    -webkit-transform-origin: 900px 770px;
-    transform-origin: 700px 707px;
+    -webkit-transform-origin: 700px 708px;
+    transform-origin: 700px 708px;
     }   
 
 .second-section{
     position: relative;
     width: calc(100vw - 4px);
     left: 0%;
-    top: -115px;
+    top: -116px;
     z-index: 3;
     padding-bottom: 75px; 
     margin-bottom: 100px;
@@ -506,21 +504,11 @@ h5 {
     }
 
 .maincontent-ending{
-    position: relative;
-    margin-top: 45px; 
-    float: right;
+    right: -25px;
     padding-bottom: 5px;
-    font-weight: 400;
-    letter-spacing: -2px;
-    text-align: right;
-    line-height: 1.05em;
     font-size: 43px;
-    border: 3px solid #000;
-    border-width: 0 0 3px;
-    cursor: pointer;
     } 
     
-
 .more-readings{
     margin-top: -1075px;
     position: relative;
@@ -957,15 +945,13 @@ left: 0px;
     position: relative;
     padding-top: 50px;
     padding-bottom: 10px;
-/*    margin-left: -144px;*/
+    letter-spacing: -.75px;
     font-weight: 400;
-    letter-spacing: -0.005em;
     line-height: 1em;
     font-size: 20px;
     left: 50px;
     width: 300px;
     text-indent: 0px;
-/*    display: none;*/
     } 
     
 .operation-header{
@@ -1161,18 +1147,10 @@ h5 {
     }
 
 .maincontent-ending{
-    position: relative;
-    margin-top: 45px; 
-    float: right;
+    right: -25px;
     padding-bottom: 5px;
-    font-weight: 400;
-    letter-spacing: -2px;
-    text-align: right;
-    line-height: 1.05em;
-    font-size: 43px;
-    border: 3px solid #000;
-    border-width: 0 0 3px;
-    cursor: pointer;
+    font-size: 48px;
+    
     } 
     
 
@@ -1294,7 +1272,7 @@ h4 {
     }
     
 .bottom-section{
-    height: 880px;
+    height: 890px;
    bottom: 0px; 
     }    
    
@@ -1608,7 +1586,6 @@ left: 0px;
     padding-bottom: 10px;
 /*    margin-left: -144px;*/
     font-weight: 400;
-    letter-spacing: -0.005em;
     line-height: 1em;
     font-size: 20px;
     left: 50px;

@@ -218,7 +218,7 @@ p:first-of-type {
     }
 
 .wrapper{
-    width: 1442px;
+    width: 1002px;
     background: #000;
     }
 
@@ -226,7 +226,7 @@ p:first-of-type {
     z-index: 1;
     background: #000;
     top: -31px;
-    width: 1440px;
+    width: 1000px;
     left: 0px;
     position: relative;
     animation: Dropdown forwards 2s .7s cubic-bezier(0.215, 0.610, 0.355, 1.000); 
@@ -247,6 +247,19 @@ p:first-of-type {
     transform: translate(-50%,0px);
     }
 
+.top-background{
+    left: 50%;
+    position: absolute;
+    height: 500px;
+    padding-top: 0px;
+    z-index: 0;
+    background: #006d97;
+    width: 100vw;
+    opacity: 1;
+    -webkit-transform: translate(-50%,0vh) ; 
+    transform: translate(-50%,0px);
+    }
+
 .top-section.open{
     opacity: 0;
     }
@@ -258,7 +271,7 @@ p:first-of-type {
     margin-top: 3920px;
     z-index: 0;
     background: #006d97;
-    width: 1440px;
+    width: 100vw;
     transition: 0s ease;
     -webkit-transition: 0s ease;
     -moz-transition: 0s ease;    
@@ -841,7 +854,7 @@ p:first-of-type {
 
 .footer-image{
     position: absolute;
-    width: 1440px;
+    width: 100vw;
     left: 0px;
     margin-top: 3190px;
     opacity: 1;  
@@ -854,7 +867,7 @@ p:first-of-type {
     }
 
 .footer-image img{
-    width: calc(1440px - 32px); 
+    width: calc(100vw - 32px); 
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
@@ -869,8 +882,8 @@ p:first-of-type {
     width: calc(100vw);
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    -webkit-transform-origin: 1000px 193px;
-    transform-origin: 1000px 193px;
+    -webkit-transform-origin: 1200px 680px;
+    transform-origin: 1200px 680px;
     }
 
 .article-image{
@@ -919,7 +932,7 @@ p:first-of-type {
 
 .landing-section{
     position: relative;
-    width: calc(800px);
+    width: calc(100vw - 640px);
     left: 637px;
     z-index: 2;
     padding-bottom: 75px; 
@@ -1796,15 +1809,13 @@ p:first-of-type {
 .second-section{
     position: relative;
     width: calc(903px);
-    left: 50%;
+    left: 267px;
     top: -515px;
     z-index: 3;
     padding-bottom: 75px; 
     opacity: 1;  
     float: left;
     overflow: hidden;
-    -webkit-transform: translate(-50%,0vh) ; 
-    transform: translate(-50%,0vh);
     background-color: #fff;
     border: 2px solid #000;
     border-width: 2px 2px 2px 2px;
@@ -1950,7 +1961,6 @@ p:first-of-type {
     border-width: 1px 1px 1px 1px;
     }
 
-
 .homepage-mainheading{
     position: relative;
     padding-top: 125px;
@@ -1967,7 +1977,7 @@ p:first-of-type {
 
 .homepage-mainheading span{
     background: #000;
-    width: 725px;
+    width: calc(100vw - 715px);
     height: 3px;
     left: -25px;
     text-indent: 0px;
@@ -2115,15 +2125,13 @@ p:first-of-type {
 .more-readings{
     position: relative;
     width: calc(603px);
-    left: calc(70% - 15px);
+    left: calc(690px);
     margin-top: -1600px;
     z-index: 2;
     padding-bottom: 60px; 
     opacity: 1;  
     float: left;
     overflow: hidden;
-    -webkit-transform: translate(-50%,0vh) ; 
-    transform: translate(-50%,0vh);
     background-color: #fff;
     border: 2px solid #000;
     border-width: 2px 2px 2px 2px;
@@ -2385,11 +2393,11 @@ p:first-of-type {
 .bottom-section-article{
     left: 0%;
     position: relative;
-    height: 350px;
-    margin-top: 19795px;
+    height: 450px;
+    margin-top: 19695px;
     z-index: 0;
     background: #006d97;
-    width: 1440px;
+    width: 100vw;
     transition: 0s ease;
     -webkit-transition: 0s ease;
     -moz-transition: 0s ease;    
@@ -2432,11 +2440,11 @@ p:first-of-type {
 .bottom-section-article-dominic{
     left: 0%;
     position: relative;
-    height: 350px;
-    margin-top: 9055px;
+    height: 450px;
+    margin-top: 8955px;
     z-index: 0;
     background: #006d97;
-    width: 1440px;
+    width: 100vw;
     transition: 0s ease;
     -webkit-transition: 0s ease;
     -moz-transition: 0s ease;    
@@ -2479,11 +2487,11 @@ p:first-of-type {
 .bottom-section-article-hardtack{
     left: 0%;
     position: relative;
-    height: 350px;
-    margin-top: 14999px;
+    height: 450px;
+    margin-top: 14899px;
     z-index: 0;
     background: #006d97;
-    width: 1440px;
+    width: 100vw;
     transition: 0s ease;
     -webkit-transition: 0s ease;
     -moz-transition: 0s ease;    
@@ -2526,11 +2534,11 @@ p:first-of-type {
 .bottom-section-article-teapot{
     left: 0%;
     position: relative;
-    height: 350px;
-    margin-top: 15559px;
+    height: 450px;
+    margin-top: 15459px;
     z-index: 0;
     background: #006d97;
-    width: 1440px;
+    width: 100vw;
     transition: 0s ease;
     -webkit-transition: 0s ease;
     -moz-transition: 0s ease;    

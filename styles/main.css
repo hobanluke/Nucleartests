@@ -1788,7 +1788,7 @@ p:first-of-type {
     position: relative;
     padding-top: 26px;
     margin-left: -153px;
-    width: calc(803px);
+    width: calc(100vw - 640px);
     transition: 0s ease;
     -webkit-transition: 0s ease;
     -moz-transition: 0s ease;
@@ -1796,7 +1796,7 @@ p:first-of-type {
 
 .video_containter video{
     position: relative;
-    width: calc(801px);
+    width: calc(100vw - 638px);
     margin-left: 0px;
     bottom: -11px;
     transition: 0s ease;

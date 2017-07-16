@@ -447,7 +447,7 @@
     clear: both;
     left: -48px;
     text-indent: 0px;
-    width: 225px;;
+    width: 225px;
     }
 .homepage-image img{
     position: relative;
@@ -463,11 +463,11 @@
     clear: both;
     left:-190px;
     top: 25px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     width: 335px;
     border: 2px solid #111;
     border-width: 1px 1px 1px 1px;
-    }
+    } 
 .homepage-imagecredit{
     opacity: 0;
     }
@@ -1301,7 +1301,7 @@ h4 {
     clear: both;
     left:-190px;
     top: 25px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     width: 375px;
     border: 2px solid #111;
     border-width: 1px 1px 1px 1px;

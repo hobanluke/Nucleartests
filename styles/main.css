@@ -1842,7 +1842,7 @@ p:first-of-type {
     padding-top: 75px;
     padding-bottom: 15px;
     font-weight: 400;
-    letter-spacing: -2px;
+    letter-spacing: -3px;
     left: 25px;
     width: 600px;
     float: left;
@@ -1879,7 +1879,7 @@ p:first-of-type {
     padding-top: 75px;
     padding-bottom: 15px;
     font-weight: 400;
-    letter-spacing: -2px;
+    letter-spacing: -3px;
     left: 25px;
     width: 600px;
     float: left;
@@ -1934,7 +1934,7 @@ p:first-of-type {
     padding-bottom: 5px;
     font-weight: 400;
     margin-right: 25px;
-    letter-spacing: -2px;
+    letter-spacing: -3px;
     text-align: right;
     line-height: 1.05em;
     font-size: 55px;
@@ -1966,18 +1966,18 @@ p:first-of-type {
     padding-top: 125px;
     padding-bottom: 15px;
     font-weight: 400;
-    letter-spacing: -2px;
+    letter-spacing: -3px;
     width: 550px;
     float: left;
     line-height: 1em;
     font-size: 55px;
-    left: -50px;
+    left: -75px;
     text-indent: 0px;
     }
 
 .homepage-mainheading span{
     background: #000;
-    width: calc(100vw - 715px);
+    width: calc(100vw - 690px);
     height: 3px;
     left: -25px;
     text-indent: 0px;
@@ -2008,7 +2008,7 @@ p:first-of-type {
     font-weight: 400;
     letter-spacing: -0.1px;
     font-size: 17px;
-    left: 0px;
+    left: -25px;
     text-indent: 0px;
     width: 325px;
     line-height: 1.5em;
@@ -2019,7 +2019,7 @@ p:first-of-type {
     padding-top: 25px;
     padding-bottom: 15px;
     clear: both;
-    left: -50px;
+    left: -75px;
     width: 525px;
     text-indent: 0px;
     }
@@ -2029,7 +2029,7 @@ p:first-of-type {
     padding-top: 0px;
     padding-bottom: 15px;
     clear: both;
-    left: -50px;
+    left: -75px;
     width: 350px;
     top: -40px;
     text-indent: 0px;
@@ -2041,14 +2041,14 @@ p:first-of-type {
     padding-bottom: 15px;
     clear: both;
     width: 350px;
-    left: 0px;
+    left: -25px;
     text-indent: 0px;
     }
 
 .homepage-image img{
     position: relative;
     clear: both;
-    left:-150px;
+    left:-175px;
     top: 25px;
     padding-top: 25px;
     margin-bottom: 15px;
@@ -2058,7 +2058,7 @@ p:first-of-type {
 .homepage-image2 img{
     position: relative;
     clear: both;
-    left:-150px;
+    left:-175px;
     top: 25px;
     margin-bottom: 15px;
     width: 600px;

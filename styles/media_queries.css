@@ -559,7 +559,7 @@
     font-size: 14px;
     left: 45px;
     width: 225px;
-    line-height: 1.5em;
+    line-height: 1.25em;
     }
 .maincontent-body{
     position: relative;
@@ -718,7 +718,7 @@ h4 {
     padding-top: 75px;
     padding-bottom: 15px;
     font-weight: 400;
-    letter-spacing: -1px;
+    letter-spacing: -1.5px;
     left: 0px;
     width: 100%;
     float: left;
@@ -762,7 +762,7 @@ h4 {
     }
 .summary-body img{
     width: 100vw;
-    left: -15px;
+    left: -16px;
     }
 .summary-imagecredit{
     opacity: 0;
@@ -896,7 +896,7 @@ h4 {
 .serif-font2{
     font-family: "Times New Roman", Georgia, Serif;
     font-size: 30px;
-    margin-top: -28px;
+    margin-top: -27px;
     margin-left: -42px;
     }    
 .top-heading3{
@@ -1214,7 +1214,7 @@ h4 {
     position: relative;
     padding-top: 125px;
     font-weight: 400;
-    letter-spacing: -.5px;
+    letter-spacing: -1.25px;
     left: -90px;
     width: calc(80vw - 0px);
     float: left;
@@ -1335,7 +1335,7 @@ h4 {
     padding-top: 75px;
     padding-bottom: 15px;
     font-weight: 400;
-    letter-spacing: -0.5px;
+    letter-spacing: -1px;
     left: 0px;
     width: calc(100vw - 50px);
     float: left;
@@ -1369,7 +1369,7 @@ h4 {
     padding-top: 75px;
     padding-bottom: 15px;
     font-weight: 400;
-    letter-spacing: -.5px;
+    letter-spacing: -1px;
     left: 0px;
     width: calc(80vw - 0px);
     float: left;
@@ -1394,7 +1394,7 @@ h4 {
     font-size: 14px;
     left: 45px;
     width: 225px;
-    line-height: 1.5em;
+    line-height: 1.25em;
     }
 .maincontent-body{
     position: relative;
@@ -1540,7 +1540,7 @@ h4 {
     bottom: 0px; 
     }    
 .plumbbob-section{
-    top: -260px;
+    top: -225px;
     width: calc(100vw - 4px);
     left: 0vw;
     }  
@@ -1553,7 +1553,7 @@ h4 {
     padding-top: 75px;
     padding-bottom: 15px;
     font-weight: 400;
-    letter-spacing: -1px;
+    letter-spacing: -1.5px;
     left: 0px;
     width: 60%;
     float: left;
@@ -1599,7 +1599,7 @@ h4 {
     }
 .summary-body img{
     width: 100vw;
-    left: -15px;
+    left: -16px;
     }
 .summary-imagecredit{
     opacity: 0;

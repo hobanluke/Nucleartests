@@ -494,9 +494,9 @@ left: 0px;
 .homepage-quote{
     position: relative;
     padding-top: 0px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     clear: both;
-    left: -90px;
+    left: -48px;
     text-indent: 0px;
     width: 245px;
     }
@@ -796,6 +796,146 @@ h4 {
    bottom: 0px; 
     }    
    
+.plumbbob-section{
+    top: -260px;
+    width: calc(100vw - 4px);
+    left: 0vw;
+    }  
+.maincontent-containter{
+    left: 15px;
+    width: calc(100vw - 35px);
+    }    
+
+.articlecontent-mainheading{
+    position: relative;
+    padding-top: 75px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    left: 0px;
+    width: 100%;
+    float: left;
+    line-height: 1em;
+    font-size: 35px;
+    }
+
+.articlecontent-mainheading span{
+    background: #000;
+    width: calc(100vw - 35px);
+    height: 3px;
+    left: 0px;
+    top: 50px;
+    position: absolute;
+    }
+    
+.maincontent-image img{
+    left: 0px;
+    width: 325px;
+    }
+
+.articlecontent-number{
+    font-size: 0px;
+    opacity: 0;
+    }
+
+.articlecontent-imagecredit{
+    opacity: 0;
+    }
+
+.articlecontent-imagecredit2{
+    opacity: 0;
+    }
+
+.articlecontent-imagecredit3{
+    opacity: 0;
+    }
+.maincontent-summary{
+    font-size: 35px;
+    }
+    
+.maincontent-ending2{
+    font-size: 35px;
+    }
+.summary-body{
+    left:-0px;
+    width: 95%;
+    }
+
+.summary-body img{
+    width: 100vw;
+    left: -15px;
+    }
+
+.summary-imagecredit{
+    opacity: 0;
+    }     
+
+.article-image-plumbbob{
+    width: calc(85vw + 16px);
+    }
+.article-image-plumbbob img{
+    width:calc(85vw + 1px);
+    }
+.article-image-plumbbob:before{
+    -webkit-transform-origin: 1300px -81px;
+    transform-origin: 1300px -81px;
+    }
+.footer-image-article{
+    width: 1000px;
+    margin-top: 13200px;
+    }
+.footer-image-article img{
+    width: calc(1000px - 32px); 
+    }    
+.footer-image-article:before{
+    -webkit-transform-origin: 1475px -180px;
+    transform-origin: 1475px -180px;
+    }    
+.bottom-section-article{
+    margin-top: 13900px;   
+    }
+.footer-image-article-dominic{
+    width: 1000px;
+    margin-top: 6203px;
+    }
+.footer-image-article-dominic img{
+    width: calc(1000px - 32px); 
+    }    
+.footer-image-article-dominic:before{
+    -webkit-transform-origin: 1475px -180px;
+    transform-origin: 1475px -180px;
+    }    
+.bottom-section-article-dominic{
+    margin-top: 6900px;   
+    }
+.footer-image-article-hardtack{
+    width: 1000px;
+    margin-top: 11552px;
+    }
+.footer-image-article-hardtack img{
+    width: calc(1000px - 32px); 
+    }    
+.footer-image-article-hardtack:before{
+    -webkit-transform-origin: 1475px -180px;
+    transform-origin: 1475px -180px;
+    }    
+.bottom-section-article-hardtack{
+    margin-top: 12249px; 
+    }
+.footer-image-article-teapot{
+    width: 1000px;
+    margin-top: 9703px;
+    }
+.footer-image-article-teapot img{
+    width: calc(1000px - 32px); 
+    }    
+.footer-image-article-teapot:before{
+    -webkit-transform-origin: 1475px -180px;
+    transform-origin: 1475px -180px;
+    }    
+.bottom-section-article-teapot{
+    margin-top: 10400px;   
+    }    
     
 }
 
@@ -1305,9 +1445,9 @@ left: 0px;
 .homepage-quote{
     position: relative;
     padding-top: 0px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     clear: both;
-    left: -90px;
+    left: -48px;
     text-indent: 0px;
     width: 245px;
     }
@@ -1711,7 +1851,7 @@ h4 {
     }
 .footer-image-article-dominic{
     width: 1000px;
-    margin-top: 7973px;
+    margin-top: 6373px;
     }
 .footer-image-article-dominic img{
     width: calc(1000px - 32px); 
@@ -1721,11 +1861,11 @@ h4 {
     transform-origin: 1475px -180px;
     }    
 .bottom-section-article-dominic{
-    margin-top: 8960px;   
+    margin-top: 7070px;   
     }
 .footer-image-article-hardtack{
     width: 1000px;
-    margin-top: 13912px;
+    margin-top: 11652px;
     }
 .footer-image-article-hardtack img{
     width: calc(1000px - 32px); 
@@ -1735,7 +1875,7 @@ h4 {
     transform-origin: 1475px -180px;
     }    
 .bottom-section-article-hardtack{
-    margin-top: 14899px; 
+    margin-top: 12349px; 
     }
 .footer-image-article-teapot{
     width: 1000px;

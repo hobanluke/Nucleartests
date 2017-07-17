@@ -225,13 +225,15 @@ p:first-of-type {
 .main {
     z-index: 1;
     background: #000;
-    top: -31px;
+    top: 369px;
     width: 1000px;
     left: 0px;
     position: relative;
+/*
     animation: Dropdown forwards 2s .7s cubic-bezier(0.215, 0.610, 0.355, 1.000); 
     -moz-animation: Dropdown forwards 2s .7s cubic-bezier(0.215, 0.610, 0.355, 1.000); 
     -webkit-animation: Dropdown forwards 2s .7s cubic-bezier(0.215, 0.610, 0.355, 1.000);  
+*/
     }
 
 .top-section{
@@ -837,6 +839,16 @@ p:first-of-type {
     border-width: 1px 1px 1px 1px;
     }
 
+.landing-image video{
+    width: 985px; 
+    opacity: 1; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: -1px;
+    border: 2px solid #111;
+    border-width: 1px 1px 1px 1px;
+    }
+
 .landing-image:before{
     content:"";
     position:absolute;
@@ -979,7 +991,7 @@ p:first-of-type {
     padding-bottom: 15px;
     margin-left: -100px;
     font-weight: 400;
-    letter-spacing: -0.9px;
+    letter-spacing: -0.6px;
     line-height: 1em;
     font-size: 25px;
     left: 50px;
@@ -1842,7 +1854,7 @@ p:first-of-type {
     padding-top: 75px;
     padding-bottom: 15px;
     font-weight: 400;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     left: 25px;
     width: 600px;
     float: left;
@@ -1870,8 +1882,8 @@ p:first-of-type {
     text-align: right;
     line-height: 1.05em;
     font-size: 55px;
-    border: 3px solid #000;
-    border-width: 0 0 3px;
+    border: 0px solid #000;
+    border-width: 0 0 0px;
     }
 
 .maincontent-heading{
@@ -1879,7 +1891,7 @@ p:first-of-type {
     padding-top: 75px;
     padding-bottom: 15px;
     font-weight: 400;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     left: 25px;
     width: 600px;
     float: left;
@@ -1934,7 +1946,7 @@ p:first-of-type {
     padding-bottom: 5px;
     font-weight: 400;
     margin-right: 25px;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     text-align: right;
     line-height: 1.05em;
     font-size: 55px;
@@ -1966,7 +1978,7 @@ p:first-of-type {
     padding-top: 125px;
     padding-bottom: 15px;
     font-weight: 400;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     width: 550px;
     float: left;
     line-height: 1em;

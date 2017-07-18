@@ -2917,9 +2917,9 @@ p:first-of-type {
 
 .side-image{
     position: absolute;
-    width: calc(1027px);
-    left: calc(100vw - 1127px);
-    margin-top: 9537px;
+    width: calc(1227px);
+    left: calc(100vw - 1258px);
+    margin-top: 9637px;
     opacity: 1;  
     background-color: #fff;
     border: 2px solid #000;
@@ -2930,7 +2930,7 @@ p:first-of-type {
     }
 
 .side-image img{
-    width: calc(1027px - 32px); 
+    width: calc(1227px - 32px); 
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
@@ -2941,7 +2941,7 @@ p:first-of-type {
 .side-image2{
     position: absolute;
     width: calc(1227px);
-    left: calc(100vw - 1527px);
+    left: calc(-18px);
     margin-top: 4023px;
     opacity: 1;  
     background-color: #fff;
@@ -2964,7 +2964,7 @@ p:first-of-type {
 .side-image3{
     position: absolute;
     width: calc(1027px);
-    left: calc(100vw - 1227px);
+    left: calc(100vw - 1178px);
     margin-top: 2037px;
     opacity: 1;  
     background-color: #fff;

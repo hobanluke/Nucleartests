@@ -166,7 +166,13 @@ h2 {
     }
 
 h3 {
-    font-family:  'Favorit', "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    display: inline;
+    font-size: 45px;
+    line-height: 1.2em;
+    font-weight: 400;
+    border: 2px solid #000;
+    border-width: 0 0 3px;
+    letter-spacing: -1px;
     }
 
 h4 {
@@ -2304,6 +2310,7 @@ p:first-of-type {
 
 .article-image-plumbbob:hover{
     z-index: 4;
+    opacity: .97;
     transition: 0s ease;
     -webkit-transition: 0s ease;
     -moz-transition: 0s ease; 
@@ -2465,7 +2472,7 @@ p:first-of-type {
     position: absolute;
     width: 1440px;
     left: 0px;
-    margin-top: 14037px;
+    margin-top: 12202px;
     opacity: 1;  
     background-color: #fff;
     border: 2px solid #000;
@@ -2499,7 +2506,7 @@ p:first-of-type {
     left: 0%;
     position: relative;
     height: 450px;
-    margin-top: 14899px;
+    margin-top: 13069px;
     z-index: 0;
     background: #006d97;
     width: 100vw;
@@ -2735,7 +2742,7 @@ p:first-of-type {
     position: relative;
     clear: both;
     z-index: 3;
-    left:-50px;
+    left:-51px;
     top: 25px;
     margin-bottom: 0px;
     width: 825px;
@@ -2758,3 +2765,267 @@ p:first-of-type {
     color: #777;
     }
 
+.side-text-headingtop{
+    position: relative;
+    padding-top: 75px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    left: 25px;
+    width: 600px;
+    float: left;
+    line-height: 1em;
+    font-size: 55px;
+    }
+
+.side-text-headingtop span{
+    background: #000;
+    width:  775px;
+    height: 3px;
+    left: 0px;
+    top: 50px;
+    position: absolute;
+    }
+
+.side-text-heading{
+    position: relative;
+    margin-top: 0px; 
+    padding-bottom: 0px;
+    font-weight: 400;
+    margin-right: 25px;
+    letter-spacing: -2px;
+    text-align: right;
+    font-size: 55px;
+    clear: both;
+    }
+
+.side-text-heading a{
+    border: 3px solid #000;
+    border-width: 0 0 3px;
+    }
+
+.side-text-heading a:hover{
+    border: 0px solid #000;
+    border-width: 0 0 0px;
+    padding-bottom: 3px;
+    }
+
+.side-text{
+    position: absolute;
+    width: calc(827px);
+    left: calc(100vw - 1050px);
+    margin-top: 9930px;
+    opacity: 1;  
+    background-color: #fff;
+    border: 2px solid #000;
+    border-width: 1px 1px 1px 1px;
+    z-index: -1;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+    padding-bottom: 105px;
+    }
+
+.side-text:hover{
+    z-index: 3;
+    opacity: .97
+    }
+
+.side-text2{
+    position: absolute;
+    width: calc(800px);
+    height: 1141px;
+    left: calc(100vw - 1045px);
+    margin-top: 4607px;
+    opacity: 1;  
+    background-color: #fff;
+    border: 2px solid #000;
+    border-width: 2px 2px 2px 2px;
+    z-index: -1;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+    }
+
+.side-text2:hover{
+    z-index: 3;
+    opacity: .97
+    }
+
+.side-text3{
+    position: absolute;
+    width: calc(827px);
+    left: calc(100vw - 1050px);
+    margin-top: 1270px;
+    opacity: 1;  
+    background-color: #fff;
+    border: 2px solid #000;
+    border-width: 1px 1px 1px 1px;
+    z-index: -1;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+    padding-bottom: 105px;
+    }
+
+.side-text3:hover{
+    z-index: 3;
+    opacity: .97
+    }
+
+.side-text-info{
+    position: absolute;
+    transform: rotate(0deg);
+    float: right;
+    padding-bottom: 0px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    right: 253px;
+    top: 184px;
+    text-align: left;
+    line-height: 1.3em;
+    font-size: 17px;
+    width: 300px;
+    }
+
+.side-text-info-rotate{
+    position: absolute;
+    transform: rotate(90deg);
+    float: right;
+    padding-bottom: 0px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    right: -235px;
+    top: 725px;
+    text-align: left;
+    line-height: 1.3em;
+    font-size: 11px;
+    width: 550px;
+    }
+
+.side-text-info-rotate2{
+    position: absolute;
+    transform: rotate(90deg);
+    float: right;
+    padding-bottom: 0px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    right: -242px;
+    top: 600px;
+    text-align: left;
+    line-height: 1.3em;
+    font-size: 11px;
+    width: 550px;
+    }
+
+.side-image{
+    position: absolute;
+    width: calc(1027px);
+    left: calc(100vw - 1127px);
+    margin-top: 9537px;
+    opacity: 1;  
+    background-color: #fff;
+    border: 2px solid #000;
+    border-width: 2px 2px 2px 2px;
+    z-index: -2;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+    }
+
+.side-image img{
+    width: calc(1027px - 32px); 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border: 2px solid #111;
+    border-width: 1px 1px 1px 1px;
+    }
+
+.side-image2{
+    position: absolute;
+    width: calc(1227px);
+    left: calc(100vw - 1527px);
+    margin-top: 4023px;
+    opacity: 1;  
+    background-color: #fff;
+    border: 2px solid #000;
+    border-width: 2px 2px 2px 2px;
+    z-index: -2;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+    }
+
+.side-image2 img{
+    width: calc(1527px - 32px); 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border: 2px solid #111;
+    border-width: 1px 1px 1px 1px;
+    }
+
+.side-image3{
+    position: absolute;
+    width: calc(1027px);
+    left: calc(100vw - 1227px);
+    margin-top: 2037px;
+    opacity: 1;  
+    background-color: #fff;
+    border: 2px solid #000;
+    border-width: 2px 2px 2px 2px;
+    z-index: -2;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+    }
+
+.side-image3 img{
+    width: calc(1027px - 32px); 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border: 2px solid #111;
+    border-width: 1px 1px 1px 1px;
+    }
+
+
+.flyer-mainheading{
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    left: 5px;
+    width: 550px;
+    float: left;
+    line-height: 1em;
+    }
+
+.flyer-mainheading span{
+    background: #000;
+    transform: rotate(-55deg);
+    width: 1430px;
+    height: 3px;
+    left: -355px;
+    top: 583px;
+    position: absolute;
+    }
+
+
+.flyer-readmore{
+    position: relative;
+    margin-top: 790px; 
+    float: right;
+    padding-bottom: 5px;
+    font-weight: 400;
+    margin-right: 5px;
+    letter-spacing: -2px;
+    text-align: right;
+    font-size: 55px;
+    line-height: 1.2em;
+    border: 3px solid #000;
+    border-width: 0 0 3px;
+    cursor: pointer;
+    padding-bottom: 3px;
+    }
+
+.flyer-readmore:hover{
+    border: 0px solid #000;
+    border-width: 0 0 0px;
+    padding-bottom: 6px;
+    }

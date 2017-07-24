@@ -17,15 +17,19 @@ $('.maincontent-ending').hover(function(){
 
 $('.menu2').hover(function(){
          $('.serif-font3').toggleClass('open');
+         $('.top-svg').toggleClass('open');
      });
 $('.menu3').hover(function(){
          $('.serif-font3').toggleClass('open');
+         $('.top-svg').toggleClass('open');
      });
 $('.menu4').hover(function(){
          $('.serif-font3').toggleClass('open');
+         $('.top-svg').toggleClass('open');
      });
 $('.menu5').hover(function(){
          $('.serif-font3').toggleClass('open');
+         $('.top-svg').toggleClass('open');
      });
 
 $('.menu2-bottom').hover(function(){

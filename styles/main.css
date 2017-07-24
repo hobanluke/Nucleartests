@@ -3029,7 +3029,7 @@ p:first-of-type {
     position: absolute;
     width: calc(800px);
     left: calc(100vw - 1045px);
-    margin-top: 11507px;
+    margin-top: 9707px;
     opacity: 1;  
     background-color: #fff;
     border: 2px solid #000;
@@ -3241,7 +3241,7 @@ p:first-of-type {
     position: absolute;
     width: calc(1727px);
     left: calc(100vw - 1178px);
-    margin-top: 11937px;
+    margin-top: 9937px;
     opacity: 1;  
     background-color: #fff;
     border: 2px solid #000;
@@ -3265,7 +3265,7 @@ p:first-of-type {
     position: absolute;
     width: calc(1427px);
     left: calc(100vw - 1188px);
-    margin-top: 4807px;
+    margin-top: 4607px;
     opacity: 1;  
     background-color: #fff;
     border: 2px solid #000;
@@ -3285,6 +3285,29 @@ p:first-of-type {
     border-width: 1px 1px 1px 1px;
     }
 
+.side-image7{
+    position: absolute;
+    width: calc(1227px);
+    left: calc(100vw - 1278px);
+    margin-top: 7537px;
+    opacity: 1;  
+    background-color: #fff;
+    border: 2px solid #000;
+    border-width: 2px 2px 2px 2px;
+    z-index: -2;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+    }
+
+.side-image7 img{
+    width: calc(1227px - 32px); 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border: 2px solid #111;
+    border-width: 1px 1px 1px 1px;
+    }
 
 .flyer-mainheading{
     position: relative;

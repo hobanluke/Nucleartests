@@ -71,7 +71,10 @@
     } 
 .side-image6{
     display: none;
-    }       
+    }  
+.side-image7{
+    display: none;
+    }     
 .serif-font2{
     font-family: "Times New Roman", Georgia, Serif;
     font-size: 30px;
@@ -1798,6 +1801,9 @@ h4 {
 .side-image6{
     display: none;
     }    
+.side-image7{
+    display: none;
+    }     
 .summary-imagecredit{
     opacity: 0;
     }     
@@ -1964,7 +1970,10 @@ h4 {
     } 
 .side-image6{
     display: none;
-    }       
+    }     
+.side-image7{
+    display: none;
+    }     
 .serif-font2{
     font-size: 30px;
     margin-top: -25px;
@@ -2143,7 +2152,10 @@ h4 {
     } 
 .side-image6{
     display: none;
-    }       
+    }  
+.side-image7{
+    display: none;
+    }          
 .serif-font2{
     font-size: 30px;
     margin-top: -25px;

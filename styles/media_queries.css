@@ -120,9 +120,33 @@
     letter-spacing: -1px;
     left: 20px;
     top: 50px;
-    -webkit-text-fill-color: #006d97; 
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: #000;
+    text-shadow: 
+        /* first layer at 1px */
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+        -1px  0px 0px #000,
+         1px  0px 0px #000,
+        -1px  1px 0px #000,
+         0px  1px 0px #000,
+         1px  1px 0px #000,
+        /* second layer at 2px */
+        -1px -1px 0px #000,
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+         1px -1px 0px #000,
+         1px -1px 0px #000,
+         1px  0px 0px #000,
+         1px  1px 0px #000,
+         1px  1px 0px #000,
+         1px  1px 0px #000,
+         0px  1px 0px #000,
+        -1px  1px 0px #000,
+        -1px  1px 0px #000,
+        -1px  1px 0px #000,
+        -1px  0px 0px #000,
+        -1px -1px 0px #000;
     }     
 .top-heading1 span{
     position: absolute;
@@ -1005,9 +1029,33 @@ h4 {
     letter-spacing: -1px;
     left: 20px;
     top: 50px;
-    -webkit-text-fill-color: #006d97; 
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: #000;
+    text-shadow: 
+        /* first layer at 1px */
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+        -1px  0px 0px #000,
+         1px  0px 0px #000,
+        -1px  1px 0px #000,
+         0px  1px 0px #000,
+         1px  1px 0px #000,
+        /* second layer at 2px */
+        -1px -1px 0px #000,
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+         1px -1px 0px #000,
+         1px -1px 0px #000,
+         1px  0px 0px #000,
+         1px  1px 0px #000,
+         1px  1px 0px #000,
+         1px  1px 0px #000,
+         0px  1px 0px #000,
+        -1px  1px 0px #000,
+        -1px  1px 0px #000,
+        -1px  1px 0px #000,
+        -1px  0px 0px #000,
+        -1px -1px 0px #000;
     }     
 .top-heading1 span{
     position: absolute;
@@ -1896,6 +1944,33 @@ h4 {
     }   
 .top-heading1{
     font-size: 90px; 
+    text-shadow: 
+        /* first layer at 1px */
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+        -1px  0px 0px #000,
+         1px  0px 0px #000,
+        -1px  1px 0px #000,
+         0px  1px 0px #000,
+         1px  1px 0px #000,
+        /* second layer at 2px */
+        -1px -1px 0px #000,
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+         1px -1px 0px #000,
+         1px -1px 0px #000,
+         1px  0px 0px #000,
+         1px  1px 0px #000,
+         1px  1px 0px #000,
+         1px  1px 0px #000,
+         0px  1px 0px #000,
+        -1px  1px 0px #000,
+        -1px  1px 0px #000,
+        -1px  1px 0px #000,
+        -1px  0px 0px #000,
+        -1px -1px 0px #000;    
     }      
 .top-heading1 span{
     top: 40px; 
@@ -2081,6 +2156,33 @@ h4 {
     }   
 .top-heading1{
     font-size: 90px; 
+    text-shadow: 
+        /* first layer at 1px */
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+        -1px  0px 0px #000,
+         1px  0px 0px #000,
+        -1px  1px 0px #000,
+         0px  1px 0px #000,
+         1px  1px 0px #000,
+        /* second layer at 2px */
+        -1px -1px 0px #000,
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+         1px -1px 0px #000,
+         1px -1px 0px #000,
+         1px  0px 0px #000,
+         1px  1px 0px #000,
+         1px  1px 0px #000,
+         1px  1px 0px #000,
+         0px  1px 0px #000,
+        -1px  1px 0px #000,
+        -1px  1px 0px #000,
+        -1px  1px 0px #000,
+        -1px  0px 0px #000,
+        -1px -1px 0px #000;
     }      
 .top-heading1 span{
     top: 40px; 
